@@ -6,7 +6,7 @@
   }
   
   body {
-    background: radial-gradient(ellipse at center, #1e014b 0%, #090012 100%);
+    background: radial-gradient(ellipse at center, #ffffff 0%, #ffffff 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
