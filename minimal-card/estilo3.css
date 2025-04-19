@@ -1,0 +1,70 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: radial-gradient(ellipse at center, #1e014b 0%, #090012 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Tarjeta */
+  .card {
+    background-color: white;
+    width: 336px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  }
+  
+  /* Imagen */
+  .card-img {
+    width: 100%;
+    height: 152px;
+    object-fit: cover;
+  }
+  
+  /* Contenido */
+  .card-content {
+    padding: 16px;
+  }
+  
+  .tag {
+    font-size: 0.75rem;
+    color: #883AE1;
+    background-color: #E6D6FC;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  
+  .card-content h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #20293A;
+  }
+  
+  .card-content p {
+    font-size: 0.9rem;
+    color: #6C727F;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  
+  .author {
+    font-size: 0.75rem;
+    color: #6C727F;
+    border-top: 1px solid #E5EAF0;
+    padding-top: 20px;
+    display: block;
+  }
+  

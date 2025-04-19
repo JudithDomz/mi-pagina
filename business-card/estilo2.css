@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Fondo de la página */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(ellipse at center, #1e014b 0%, #090012 100%);
+    color: #111827;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Contenedor principal */
+  .card-container {
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  /* Tarjeta */
+  .card {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Imagen */
+  .card-image img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  /* Contenido de la tarjeta */
+  .card-content {
+    padding: 24px;
+  }
+  
+  .card-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+  }
+  
+  .card-content p {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Autor */
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 16px;
+  }
+  
+  .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  

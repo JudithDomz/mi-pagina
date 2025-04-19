@@ -1,0 +1,77 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+    line-height: 1.6;
+  }
+  
+  /* Contenedor principal */
+  .faq-container {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 0 24px;
+    background-color: #f9fafb;
+  }
+  
+  /* Título principal */
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.3em;
+  }
+  
+  /* Subtítulo */
+  .subheading {
+    text-align: center;
+    color: #6b7280;
+    font-size: 1rem;
+    margin-bottom: 2.5em;
+  }
+  
+  /* Cada bloque de pregunta */
+  .faq-item {
+    background-color: #f9fafb;
+    margin-bottom: 2.5em;
+  }
+  
+  /* Título de pregunta */
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    color: #111827;
+  }
+  
+  /* Listas y párrafos */
+  p {
+    margin: 0 0 1em 0;
+  }
+  
+  ol, ul {
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  /* Enlaces */
+  a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+    outline: none;
+  }
+  
+  /* Separador entre preguntas */
+  hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 2em 0;
+  }
+  
